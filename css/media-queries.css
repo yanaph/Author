@@ -1,0 +1,80 @@
+@media only screen and (max-width: 1090px) {
+   .carousel-caption a{
+   	font-size: 20px;
+	padding: 10px 10px;
+   }
+   .carousel-caption p{
+   font-size: 20px;
+   line-height: 25px;
+   margin-bottom: 40px;
+	}
+	.carousel-caption h1{
+   font-size: 58px;
+   line-height: 58px;
+   margin-bottom: 22px;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+   .carousel-caption a{
+   	font-size: 20px;
+	padding: 10px 10px;
+   }
+   .carousel-caption p{
+   font-size: 20px;
+   line-height: 25px;
+   margin-bottom: 40px;
+	}
+	.carousel-caption h1{
+   font-size: 50px;
+   line-height: 52px;
+   margin-bottom: 22px;
+	}
+}
+@media only screen and (max-width: 768px) {
+   .carousel-caption a{
+   	font-size: 16px;
+	padding: 10px 5px;
+   }
+   .carousel-caption p{
+   font-size: 20px;
+   line-height: 25px;
+   margin-bottom: 30px;
+	}
+	.carousel-caption h1{
+   font-size: 43px;
+   line-height: 40px;
+   margin-bottom: 15px;
+	}
+
+	.carousel-caption{
+   bottom: 10%
+
+}
+}
+@media only screen and (max-width: 576px) {
+   .carousel-caption a{
+   	font-size: 11px;
+   	padding: 5px 5px;
+   }
+
+  .carousel-caption p{
+   font-size: 13px;
+   line-height: 14px;
+   margin-bottom: 15px;
+	}
+
+	.carousel-caption{
+   bottom: 10%
+
+}
+
+	.carousel-caption h1{
+   font-size: 25px;
+   line-height: 25px;
+   margin-bottom: 10px;
+	}
+
+}
+
+
