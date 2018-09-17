@@ -39,7 +39,7 @@
    .carousel-caption p{
    font-size: 20px;
    line-height: 25px;
-   margin-bottom: 10px;
+   margin-bottom: 20px;
 	}
 	.carousel-caption h1{
    font-size: 40px;
@@ -48,11 +48,12 @@
 	}
 
 	.carousel-caption{
-   bottom: 10%
+   bottom: initial;
+   top: 18%;
 
 }
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 425px) {
    .carousel-caption a{
    	font-size: 11px;
    	padding: 5px 5px;
@@ -65,7 +66,8 @@
 	}
 
 	.carousel-caption{
-   bottom: 10%
+   bottom: initial;
+   top: 10%;
 
 }
 
@@ -73,6 +75,28 @@
    font-size: 25px;
    line-height: 25px;
    margin-bottom: 10px;
+	}
+
+	.carousel-control.right, .carousel-control.left{
+		width: 30px;
+		height: 30px;
+		margin-top: -15px;
+
+	}
+
+	.carousel-control.right{
+		right: 22px;
+	}
+	.carousel-control.left{
+		left: 22px;
+	}
+
+	.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right{
+		font-size: 15px;
+	}
+
+	.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
+		margin-top: -7px;
 	}
 
 }
@@ -90,7 +114,8 @@
 	}
 
 	.carousel-caption{
-   bottom: 5%
+   bottom: initial;
+   top: 10%;
 
 }
 
@@ -100,6 +125,73 @@
    margin-bottom: 10px;
 	}
 
+	.carousel-control.right, .carousel-control.left{
+		width: 25px;
+		height: 25px;
+		margin-top: -12px;
+
+	}
+
+	.carousel-control.right{
+		right: 22px;
+	}
+	.carousel-control.left{
+		left: 22px;
+	}
+
+	.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right{
+		font-size: 15px;
+	}
+
+	.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
+		margin-top: -7px;
+	}
+
 }
 
+@media only screen and (max-width: 320px) {
+   .carousel-caption a{
+   	font-size: 10px;
+   	padding: 5px 5px;
+   }
 
+  .carousel-caption p{
+   font-size: 12px;
+   line-height: 13px;
+   margin-bottom: 10px;
+	}
+
+	.carousel-caption{
+   bottom: initial;
+   top: 5%;
+
+}
+
+	.carousel-caption h1{
+   font-size: 20px;
+   line-height: 20px;
+   margin-bottom: 5px;
+	}
+
+	.carousel-control.right, .carousel-control.left{
+		width: 25px;
+		height: 25px;
+		margin-top: -12px;
+
+	}
+
+	.carousel-control.right{
+		right: 12px;
+	}
+	.carousel-control.left{
+		left: 12px;
+	}
+
+	.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right{
+		font-size: 15px;
+	}
+
+	.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
+		margin-top: -7px;
+	}
+}
